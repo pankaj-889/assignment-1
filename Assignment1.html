@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>my first code in JS</h1>
+
+    <script>
+        // Question 1
+        console.log(1+"2"+"2"); // output is 122 here 1 is a numerical value and other  two values are string and all they are concatenated
+        console.log(1+ +"2" +"2"); // output is 32 because + or - before any string convert them into int so 1+2=3+"2"=32
+        console.log(1+ -"1" +"2");//output is 2 reason is same as previous one
+        console.log(+"1"+"2" +"2");//output is 122 here 1 is integer value and 2 are string 
+        console.log("A"-"B" +"2");//output is Nan2 Nan becoz we cann't subtract a string from another string 
+        console.log("A"-"B" +2);//Nan
+
+        //question 2
+       var marks=50;
+       if(marks>90)
+       {
+        console.log("AA");
+       }
+       else if(marks>80&&marks<=90)
+       {
+        console.log("AB");
+       }
+       else if(marks>70&&marks<=80)
+       {
+        console.log("BB");
+       }
+       else if(marks>60&&marks<=70)
+       {
+        console.log("BC");
+       }
+       else if(marks>50&&marks<=60)
+       {
+        console.log("CC");
+       }
+       else if(marks>40&&marks<=50)
+       {
+        console.log("CD");
+       }
+       else if(marks>30&&marks<=40)
+       {
+        console.log("DD");
+       }
+       else
+       {
+        console.log("FF");
+       }
+</script>
+</body>
+</html>
